@@ -7097,7 +7097,7 @@ img {
 
 /* line 51, ../sass/styles.scss */
 .logo {
-  background: url(../images/logo.png) no-repeat;
+  background: url(../images/mobile.png) no-repeat;
   background-size: 46px 46px;
   display: block;
   text-decoration: none;
@@ -7110,6 +7110,19 @@ img {
   height: 46px; }
 
 /* line 64, ../sass/styles.scss */
+.status {
+  background: #ccc;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 0; }
+
+/* line 70, ../sass/styles.scss */
+.status h3 {
+  color: black;
+  text-align: center;
+  margin: 0; }
+
+/* line 75, ../sass/styles.scss */
 nav {
   background: #d169bd;
   box-shadow: 1px 2px 4px #ccc;
@@ -7118,42 +7131,42 @@ nav {
   position: fixed;
   z-index: 1; }
 
-/* line 72, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 nav ul {
   background: #b05a91;
   display: none;
-  top: 77px;
+  top: 116px;
   padding: 0;
   margin: 0;
   position: absolute;
   list-style: none;
   width: 100%; }
 
-/* line 82, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 nav ul a {
-  color: #d169bd;
+  color: #fff;
   display: block;
   font-size: 1.5em;
   text-decoration: none;
   padding: 23px 15px; }
 
-/* line 89, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 nav ul a:hover {
   background: #d169bd;
   color: #fff; }
 
-/* line 93, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 .menu {
   background: #b05a91;
   border-radius: 4px;
   cursor: pointer;
   position: absolute;
-  top: 20px;
+  top: 60px;
   right: 15px;
   width: 40px;
   padding: 10px; }
 
-/* line 103, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 .menu span {
   background: #fff;
   display: block;
@@ -7161,10 +7174,22 @@ nav ul a:hover {
   height: 3px;
   width: 18px; }
 
-/* line 110, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .bast {
   background: url(../images/bast.jpg) no-repeat;
   background-size: cover;
   padding: 78px 15px;
-  margin-top: 76px;
+  margin-top: 116px;
   text-align: center; }
+
+/* line 128, ../sass/styles.scss */
+.bast h1 {
+  padding-bottom: 20px; }
+
+/* line 131, ../sass/styles.scss */
+.btn {
+  background: red;
+  color: #fff;
+  display: block;
+  float: right;
+  margin-top: 30px; }
