@@ -7131,13 +7131,18 @@ nav ul {
 
 /* line 82, ../sass/styles.scss */
 nav ul a {
-  color: #789f90;
+  color: #d169bd;
   display: block;
   font-size: 1.5em;
   text-decoration: none;
   padding: 23px 15px; }
 
 /* line 89, ../sass/styles.scss */
+nav ul a:hover {
+  background: #d169bd;
+  color: #fff; }
+
+/* line 93, ../sass/styles.scss */
 .menu {
   background: #b05a91;
   border-radius: 4px;
@@ -7148,7 +7153,7 @@ nav ul a {
   width: 40px;
   padding: 10px; }
 
-/* line 99, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 .menu span {
   background: #fff;
   display: block;
@@ -7156,7 +7161,7 @@ nav ul a {
   height: 3px;
   width: 18px; }
 
-/* line 106, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 .bast {
   background: url(../images/bast.jpg) no-repeat;
   background-size: cover;
