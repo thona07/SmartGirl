@@ -7097,7 +7097,7 @@ img {
 
 /* line 51, ../sass/styles.scss */
 .logo {
-  background: url(../images/mobile.png) no-repeat;
+  background: url(../images/mobile1.png) no-repeat;
   background-size: 46px 46px;
   display: block;
   text-decoration: none;
@@ -7287,58 +7287,55 @@ form {
   width: 18%; }
 
 /* line 212, ../sass/styles.scss */
-.racha img {
-  padding-top: 10px;
-  padding-left: 10px; }
-
-/* line 216, ../sass/styles.scss */
-.racha p {
-  color: black;
-  padding-top: 20px; }
-
-/* line 220, ../sass/styles.scss */
 .fb {
   width: 50%;
   padding-top: 20px; }
 
-/* line 224, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 .container:nth-child(7), .container:nth-child(8) {
   display: none; }
 
-/* line 227, ../sass/styles.scss */
+/* line 219, ../sass/styles.scss */
 .images {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px; }
 
-/* line 232, ../sass/styles.scss */
+/* line 224, ../sass/styles.scss */
 .images img {
   width: 30%; }
 
-/* line 235, ../sass/styles.scss */
+/* line 227, ../sass/styles.scss */
+.footer {
+  padding-top: 40px;
+  padding-bottom: 10px; }
+
+/* line 231, ../sass/styles.scss */
 .footer p {
   float: left;
   display: block;
+  padding-left: 90px;
+  padding-top: 10px;
   font-size: 1em; }
 
-/* line 240, ../sass/styles.scss */
+/* line 238, ../sass/styles.scss */
 .glean {
   width: 20%;
   float: right; }
 
 @media (min-width: 768px) {
-  /* line 247, ../sass/styles.scss */
+  /* line 245, ../sass/styles.scss */
   .bast {
     padding: 215px 15px; }
 
-  /* line 250, ../sass/styles.scss */
+  /* line 248, ../sass/styles.scss */
   .btn {
     margin-top: 150px; }
 
-  /* line 253, ../sass/styles.scss */
+  /* line 251, ../sass/styles.scss */
   .img li img {
     width: 10%; }
 
-  /* line 256, ../sass/styles.scss */
+  /* line 254, ../sass/styles.scss */
   .bag button {
     margin-top: 30px; } }

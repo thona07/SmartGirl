@@ -49,7 +49,7 @@ img {
 	padding: 0 15px;
 }
 .logo {
-	background: url(../images/mobile.png) no-repeat;
+	background: url(../images/mobile1.png) no-repeat;
 	background-size: 46px 46px;
 	display: block;
 	text-decoration: none;
@@ -209,14 +209,6 @@ form {
 .people img {
 	width: 18%;
 }
-.racha img {
-	padding-top: 10px;
-	padding-left: 10px;
-}
-.racha p {
-	color: black;
-	padding-top: 20px;
-}
 .fb {
 	width: 50%;
 	padding-top: 20px;
@@ -232,9 +224,15 @@ form {
 .images img {
 	width: 30%;
 }
+.footer {
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
 .footer p {
 	float: left;
 	display: block;
+	padding-left: 90px;
+	padding-top: 10px;
 	font-size: 1em;
 }
 .glean {
