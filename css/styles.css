@@ -7205,3 +7205,45 @@ nav ul a:hover {
 /* line 145, ../sass/styles.scss */
 .sample p {
   display: none; }
+
+/* line 148, ../sass/styles.scss */
+.popular {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase; }
+
+/* line 154, ../sass/styles.scss */
+.img ul {
+  padding-left: 0; }
+
+/* line 157, ../sass/styles.scss */
+.img li img {
+  float: left;
+  width: 25%;
+  margin-right: 15px; }
+
+/* line 162, ../sass/styles.scss */
+.img ul li {
+  list-style: none; }
+
+/* line 165, ../sass/styles.scss */
+.img li span {
+  color: black; }
+
+/* line 168, ../sass/styles.scss */
+.item h2 {
+  color: black; }
+
+/* line 171, ../sass/styles.scss */
+.item span {
+  color: #bab6b9; }
+
+/* line 174, ../sass/styles.scss */
+.bag {
+  margin-top: 15px; }
+
+/* line 177, ../sass/styles.scss */
+.bag p {
+  color: black;
+  padding-top: 30px; }

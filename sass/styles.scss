@@ -145,3 +145,36 @@ nav ul a:hover {
 .sample p {
 	display: none;
 }
+.popular {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.img ul {
+	padding-left: 0;
+}
+.img li img {
+	float: left;
+	width: 25%;
+	margin-right: 15px;
+}
+.img ul li {
+	list-style: none;
+}
+.img li span {
+	color: black;
+}
+.item h2 {
+	color: black;
+}
+.item span {
+	color: #bab6b9;
+}
+.bag {
+	margin-top: 15px;
+}
+.bag p {
+	color: black;
+	padding-top: 30px;
+}
