@@ -141,6 +141,7 @@ nav ul a:hover {
 	padding-bottom: 12px;
 	margin-bottom: 0;
 	color: #fff;
+	padding-left: 15px;
 }
 .sample p {
 	display: none;
@@ -156,7 +157,7 @@ nav ul a:hover {
 }
 .img li img {
 	float: left;
-	width: 25%;
+	width: 11%;
 	margin-right: 15px;
 }
 .img ul li {
@@ -188,4 +189,65 @@ nav ul a:hover {
 }
 .content {
 	display: none;
+}
+.subscribe {
+	display: none;
+}
+form {
+	display: none;
+}
+.facebook {
+	background: #ccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.facebook h3 {
+	margin: 0;
+	text-align: center;
+	color: black;
+}
+.people img {
+	width: 18%;
+}
+.racha img {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.racha p {
+	color: black;
+	padding-top: 20px;
+}
+.fb {
+	width: 50%;
+	padding-top: 20px;
+}
+.container:nth-child( 7 ), .container:nth-child( 8 ) {
+	display: none;
+}
+.images {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.images img {
+	width: 30%;
+}
+.footer img {
+	width: 25%;
+	float: right;
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+.footer p {
+	float: left;
+	font-size: 1em;
+	padding-top: 70px;
+}
+
+
+@media ( min-width: 768px ) {
+	
+.bast {
+	padding: 75px 15px;
+}
 }

@@ -7200,56 +7200,57 @@ nav ul a:hover {
   padding-top: 12px;
   padding-bottom: 12px;
   margin-bottom: 0;
-  color: #fff; }
+  color: #fff;
+  padding-left: 15px; }
 
-/* line 145, ../sass/styles.scss */
+/* line 146, ../sass/styles.scss */
 .sample p {
   display: none; }
 
-/* line 148, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 .popular {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
   text-transform: uppercase; }
 
-/* line 154, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 .img ul {
   padding-left: 0; }
 
-/* line 157, ../sass/styles.scss */
+/* line 158, ../sass/styles.scss */
 .img li img {
   float: left;
-  width: 25%;
+  width: 11%;
   margin-right: 15px; }
 
-/* line 162, ../sass/styles.scss */
+/* line 163, ../sass/styles.scss */
 .img ul li {
   list-style: none; }
 
-/* line 165, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .img li span {
   color: black; }
 
-/* line 168, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 .item h2 {
   color: black; }
 
-/* line 171, ../sass/styles.scss */
+/* line 172, ../sass/styles.scss */
 .item span {
   color: #bab6b9; }
 
-/* line 174, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 .bag img {
   margin-top: 15px; }
 
-/* line 177, ../sass/styles.scss */
+/* line 178, ../sass/styles.scss */
 .bag p {
   color: black;
   padding-top: 30px;
   margin: 0; }
 
-/* line 182, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 .bag button {
   width: 100%;
   padding-top: 10px;
@@ -7257,6 +7258,77 @@ nav ul a:hover {
   font-size: 1.5em;
   margin-bottom: 30px; }
 
-/* line 189, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 .content {
   display: none; }
+
+/* line 193, ../sass/styles.scss */
+.subscribe {
+  display: none; }
+
+/* line 196, ../sass/styles.scss */
+form {
+  display: none; }
+
+/* line 199, ../sass/styles.scss */
+.facebook {
+  background: #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* line 204, ../sass/styles.scss */
+.facebook h3 {
+  margin: 0;
+  text-align: center;
+  color: black; }
+
+/* line 209, ../sass/styles.scss */
+.people img {
+  width: 18%; }
+
+/* line 212, ../sass/styles.scss */
+.racha img {
+  padding-top: 10px;
+  padding-left: 10px; }
+
+/* line 216, ../sass/styles.scss */
+.racha p {
+  color: black;
+  padding-top: 20px; }
+
+/* line 220, ../sass/styles.scss */
+.fb {
+  width: 50%;
+  padding-top: 20px; }
+
+/* line 224, ../sass/styles.scss */
+.container:nth-child(7), .container:nth-child(8) {
+  display: none; }
+
+/* line 227, ../sass/styles.scss */
+.images {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+/* line 232, ../sass/styles.scss */
+.images img {
+  width: 30%; }
+
+/* line 235, ../sass/styles.scss */
+.footer img {
+  width: 25%;
+  float: right;
+  padding-top: 70px;
+  padding-bottom: 20px; }
+
+/* line 241, ../sass/styles.scss */
+.footer p {
+  float: left;
+  font-size: 1em;
+  padding-top: 70px; }
+
+@media (min-width: 768px) {
+  /* line 250, ../sass/styles.scss */
+  .bast {
+    padding: 75px 15px; } }
