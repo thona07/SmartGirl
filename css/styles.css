@@ -7240,10 +7240,23 @@ nav ul a:hover {
   color: #bab6b9; }
 
 /* line 174, ../sass/styles.scss */
-.bag {
+.bag img {
   margin-top: 15px; }
 
 /* line 177, ../sass/styles.scss */
 .bag p {
   color: black;
-  padding-top: 30px; }
+  padding-top: 30px;
+  margin: 0; }
+
+/* line 182, ../sass/styles.scss */
+.bag button {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  margin-bottom: 30px; }
+
+/* line 189, ../sass/styles.scss */
+.content {
+  display: none; }

@@ -171,10 +171,21 @@ nav ul a:hover {
 .item span {
 	color: #bab6b9;
 }
-.bag {
+.bag img {
 	margin-top: 15px;
 }
 .bag p {
 	color: black;
 	padding-top: 30px;
+	margin: 0;
+}
+.bag button {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+.content {
+	display: none;
 }
