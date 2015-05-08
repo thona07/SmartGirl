@@ -7316,19 +7316,29 @@ form {
   width: 30%; }
 
 /* line 235, ../sass/styles.scss */
-.footer img {
-  width: 25%;
-  float: right;
-  padding-top: 70px;
-  padding-bottom: 20px; }
-
-/* line 241, ../sass/styles.scss */
 .footer p {
   float: left;
-  font-size: 1em;
-  padding-top: 70px; }
+  display: block;
+  font-size: 1em; }
+
+/* line 240, ../sass/styles.scss */
+.glean {
+  width: 20%;
+  float: right; }
 
 @media (min-width: 768px) {
-  /* line 250, ../sass/styles.scss */
+  /* line 247, ../sass/styles.scss */
   .bast {
-    padding: 75px 15px; } }
+    padding: 215px 15px; }
+
+  /* line 250, ../sass/styles.scss */
+  .btn {
+    margin-top: 150px; }
+
+  /* line 253, ../sass/styles.scss */
+  .img li img {
+    width: 10%; }
+
+  /* line 256, ../sass/styles.scss */
+  .bag button {
+    margin-top: 30px; } }

@@ -232,22 +232,29 @@ form {
 .images img {
 	width: 30%;
 }
-.footer img {
-	width: 25%;
-	float: right;
-	padding-top: 70px;
-	padding-bottom: 20px;
-}
 .footer p {
 	float: left;
+	display: block;
 	font-size: 1em;
-	padding-top: 70px;
 }
-
+.glean {
+	width: 20%;
+	float: right;
+}
 
 @media ( min-width: 768px ) {
 	
 .bast {
-	padding: 75px 15px;
+	padding: 215px 15px;
+}
+.btn {
+	margin-top: 150px;
+}
+.img li img {
+	width: 10%;
+}
+.bag button {
+	margin-top: 30px;
+	
 }
 }
