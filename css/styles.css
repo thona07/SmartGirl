@@ -7246,13 +7246,14 @@ nav ul a:hover {
 
 /* line 179, ../sass/styles.scss */
 .float h3 {
-  margin: 0; }
+  margin: 0;
+  font-size: 1em; }
 
-/* line 182, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 .float span {
   color: black; }
 
-/* line 185, ../sass/styles.scss */
+/* line 186, ../sass/styles.scss */
 .bag button {
   width: 100%;
   padding-top: 10px;
@@ -7260,84 +7261,84 @@ nav ul a:hover {
   font-size: 1.5em;
   margin-bottom: 30px; }
 
-/* line 192, ../sass/styles.scss */
+/* line 193, ../sass/styles.scss */
 .content {
   display: none; }
 
-/* line 195, ../sass/styles.scss */
+/* line 196, ../sass/styles.scss */
 .subscribe {
   display: none; }
 
-/* line 198, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 form {
   display: none; }
 
-/* line 201, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 .facebook {
   background: #ccc;
   padding-top: 10px;
   padding-bottom: 10px; }
 
-/* line 206, ../sass/styles.scss */
+/* line 207, ../sass/styles.scss */
 .facebook h3 {
   margin: 0;
   text-align: center;
   color: black; }
 
-/* line 211, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 .people img {
   width: 18%; }
 
-/* line 214, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 .fb {
   width: 50%;
   padding-top: 20px; }
 
-/* line 218, ../sass/styles.scss */
+/* line 219, ../sass/styles.scss */
 .container:nth-child(7), .container:nth-child(8) {
   display: none; }
 
-/* line 221, ../sass/styles.scss */
+/* line 222, ../sass/styles.scss */
 .images {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px; }
 
-/* line 226, ../sass/styles.scss */
+/* line 227, ../sass/styles.scss */
 .images img {
   width: 30%; }
 
-/* line 229, ../sass/styles.scss */
+/* line 230, ../sass/styles.scss */
 .footer {
   padding-top: 40px;
   padding-bottom: 10px; }
 
-/* line 233, ../sass/styles.scss */
+/* line 234, ../sass/styles.scss */
 .footer p {
-  float: left;
+  float: right;
   display: block;
-  padding-left: 90px;
-  padding-top: 10px;
-  font-size: 1em; }
+  padding-top: 5px;
+  padding-right: 10px;
+  font-size: 0.7em; }
 
-/* line 240, ../sass/styles.scss */
-.glean {
+/* line 241, ../sass/styles.scss */
+.footer img {
   width: 20%;
   float: right; }
 
 @media (min-width: 768px) {
-  /* line 247, ../sass/styles.scss */
+  /* line 248, ../sass/styles.scss */
   .bast {
     padding: 215px 15px; }
 
-  /* line 250, ../sass/styles.scss */
+  /* line 251, ../sass/styles.scss */
   .btn {
     margin-top: 150px; }
 
-  /* line 253, ../sass/styles.scss */
+  /* line 254, ../sass/styles.scss */
   .img li img {
     width: 10%; }
 
-  /* line 256, ../sass/styles.scss */
+  /* line 257, ../sass/styles.scss */
   .bag button {
     margin-top: 30px; } }

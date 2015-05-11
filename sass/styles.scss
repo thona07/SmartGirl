@@ -178,6 +178,7 @@ nav ul a:hover {
 }
 .float h3 {
 	margin: 0;
+	font-size: 1em;
 }
 .float span {
 	color: black;
@@ -231,13 +232,13 @@ form {
 	padding-bottom: 10px;
 }
 .footer p {
-	float: left;
+	float: right;
 	display: block;
-	padding-left: 90px;
-	padding-top: 10px;
-	font-size: 1em;
+	padding-top: 5px;
+	padding-right: 10px;
+	font-size: 0.7em;
 }
-.glean {
+.footer img {
 	width: 20%;
 	float: right;
 }
