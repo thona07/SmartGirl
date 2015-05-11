@@ -152,20 +152,6 @@ nav ul a:hover {
 	margin-bottom: 30px;
 	text-transform: uppercase;
 }
-.img ul {
-	padding-left: 0;
-}
-.img li img {
-	float: left;
-	width: 11%;
-	margin-right: 15px;
-}
-.img ul li {
-	list-style: none;
-}
-.img li span {
-	color: black;
-}
 .item h2 {
 	color: black;
 }
@@ -179,6 +165,22 @@ nav ul a:hover {
 	color: black;
 	padding-top: 30px;
 	margin: 0;
+}
+.img {
+	width: 25%;
+	float: left;
+	clear: both;
+	margin-bottom: 10px;
+}
+.float {
+	float: right;
+	width: 70%;
+}
+.float h3 {
+	margin: 0;
+}
+.float span {
+	color: black;
 }
 .bag button {
 	width: 100%;
