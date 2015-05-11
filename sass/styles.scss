@@ -297,9 +297,24 @@ display: inline-block;
 .sample h3 {
 	background: none;
 	color:#d169bd;
+	font-size: 2em;
 }
 .sample p {
 	display: block;
 	color: #989696;
+	padding-left: 15px;
 }
+}
+
+@media ( min-width: 1200px ) {
+
+	.container:nth-child( 1 ), 
+	.container:nth-child( 2 ),
+	.container:nth-child( 3 ), 
+	.container:nth-child( 4 ), 
+	.container:nth-child( 5 ),
+	nav .container {
+		margin: auto;
+		width: 1170px;
+	}
 }
