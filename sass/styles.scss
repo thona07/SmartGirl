@@ -264,22 +264,42 @@ form {
 
 @media ( min-width: 992px ) {
 
-	.menu {
-		display: none;
-	}
-	nav ul {
-		background: #d169bd;
-		display: block;
-		position: static;
-		width: auto;
-		float: right;
-		padding-right: 15px;
-	}
-	nav ul a {
-	font-size: 1.5em;
-	}
-	ul li {
-	display: inline-block;
-	}
-
+.menu {
+	display: none;
+}
+nav ul {
+	background: #d169bd;
+	display: block;
+	position: static;
+	width: auto;
+	float: right;
+	padding-right: 15px;
+}
+nav ul a {
+font-size: 1.5em;
+}
+ul li {
+display: inline-block;
+}
+.bast {
+	width: 50%;
+	float: left;
+	margin-top: 200px;
+}
+.samples h3:nth-child( 1 ) {
+	margin-top: 0;
+}
+.samples {
+	width: 50%;
+	float: right;
+	margin-top: 200px;
+}
+.sample h3 {
+	background: none;
+	color:#d169bd;
+}
+.sample p {
+	display: block;
+	color: #989696;
+}
 }

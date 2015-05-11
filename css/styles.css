@@ -7364,4 +7364,30 @@ form {
 
   /* line 281, ../sass/styles.scss */
   ul li {
-    display: inline-block; } }
+    display: inline-block; }
+
+  /* line 284, ../sass/styles.scss */
+  .bast {
+    width: 50%;
+    float: left;
+    margin-top: 200px; }
+
+  /* line 289, ../sass/styles.scss */
+  .samples h3:nth-child(1) {
+    margin-top: 0; }
+
+  /* line 292, ../sass/styles.scss */
+  .samples {
+    width: 50%;
+    float: right;
+    margin-top: 200px; }
+
+  /* line 297, ../sass/styles.scss */
+  .sample h3 {
+    background: none;
+    color: #d169bd; }
+
+  /* line 301, ../sass/styles.scss */
+  .sample p {
+    display: block;
+    color: #989696; } }
