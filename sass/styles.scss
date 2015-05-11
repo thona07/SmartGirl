@@ -178,7 +178,7 @@ nav ul a:hover {
 }
 .float h3 {
 	margin: 0;
-	font-size: 1em;
+	font-size: 1.5em;
 }
 .float span {
 	color: black;
@@ -234,13 +234,15 @@ form {
 .footer p {
 	float: right;
 	display: block;
-	padding-top: 5px;
+	padding-top: 25px;
 	padding-right: 10px;
 	font-size: 0.7em;
+	margin: 0;
 }
 .footer img {
 	width: 20%;
 	float: right;
+	padding-top: 20px;
 }
 
 @media ( min-width: 768px ) {
@@ -258,4 +260,26 @@ form {
 	margin-top: 30px;
 	
 }
+}
+
+@media ( min-width: 992px ) {
+
+	.menu {
+		display: none;
+	}
+	nav ul {
+		background: #d169bd;
+		display: block;
+		position: static;
+		width: auto;
+		float: right;
+		padding-right: 15px;
+	}
+	nav ul a {
+	font-size: 1.5em;
+	}
+	ul li {
+	display: inline-block;
+	}
+
 }

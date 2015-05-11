@@ -7247,7 +7247,7 @@ nav ul a:hover {
 /* line 179, ../sass/styles.scss */
 .float h3 {
   margin: 0;
-  font-size: 1em; }
+  font-size: 1.5em; }
 
 /* line 183, ../sass/styles.scss */
 .float span {
@@ -7317,28 +7317,51 @@ form {
 .footer p {
   float: right;
   display: block;
-  padding-top: 5px;
+  padding-top: 25px;
   padding-right: 10px;
-  font-size: 0.7em; }
+  font-size: 0.7em;
+  margin: 0; }
 
-/* line 241, ../sass/styles.scss */
+/* line 242, ../sass/styles.scss */
 .footer img {
   width: 20%;
-  float: right; }
+  float: right;
+  padding-top: 20px; }
 
 @media (min-width: 768px) {
-  /* line 248, ../sass/styles.scss */
+  /* line 250, ../sass/styles.scss */
   .bast {
     padding: 215px 15px; }
 
-  /* line 251, ../sass/styles.scss */
+  /* line 253, ../sass/styles.scss */
   .btn {
     margin-top: 150px; }
 
-  /* line 254, ../sass/styles.scss */
+  /* line 256, ../sass/styles.scss */
   .img li img {
     width: 10%; }
 
-  /* line 257, ../sass/styles.scss */
+  /* line 259, ../sass/styles.scss */
   .bag button {
     margin-top: 30px; } }
+@media (min-width: 992px) {
+  /* line 267, ../sass/styles.scss */
+  .menu {
+    display: none; }
+
+  /* line 270, ../sass/styles.scss */
+  nav ul {
+    background: #d169bd;
+    display: block;
+    position: static;
+    width: auto;
+    float: right;
+    padding-right: 15px; }
+
+  /* line 278, ../sass/styles.scss */
+  nav ul a {
+    font-size: 1.5em; }
+
+  /* line 281, ../sass/styles.scss */
+  ul li {
+    display: inline-block; } }
