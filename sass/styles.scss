@@ -216,7 +216,7 @@ form {
 	width: 50%;
 	padding-top: 20px;
 }
-.container:nth-child( 7 ), .container:nth-child( 8 ) {
+.container:nth-child( 6 ), .container:nth-child( 7 ) {
 	display: none;
 }
 .images {
@@ -264,6 +264,9 @@ form {
 
 @media ( min-width: 992px ) {
 
+.container:nth-child( 6 ), .container:nth-child( 7 ) {
+	display: block;
+}
 .menu {
 	display: none;
 }
@@ -282,7 +285,7 @@ ul li {
 display: inline-block;
 }
 .bast {
-	width: 50%;
+	width: 47%;
 	float: left;
 	margin-top: 200px;
 }
@@ -290,7 +293,7 @@ display: inline-block;
 	margin-top: 0;
 }
 .samples {
-	width: 50%;
+	width: 47%;
 	float: right;
 	margin-top: 200px;
 }
@@ -303,6 +306,10 @@ display: inline-block;
 	display: block;
 	color: #989696;
 	padding-left: 15px;
+}
+.popular {
+	margin-top: 90px;
+	margin-bottom: 50px;
 }
 }
 

@@ -7295,7 +7295,7 @@ form {
   padding-top: 20px; }
 
 /* line 219, ../sass/styles.scss */
-.container:nth-child(7), .container:nth-child(8) {
+.container:nth-child(6), .container:nth-child(7) {
   display: none; }
 
 /* line 222, ../sass/styles.scss */
@@ -7346,10 +7346,14 @@ form {
     margin-top: 30px; } }
 @media (min-width: 992px) {
   /* line 267, ../sass/styles.scss */
+  .container:nth-child(6), .container:nth-child(7) {
+    display: block; }
+
+  /* line 270, ../sass/styles.scss */
   .menu {
     display: none; }
 
-  /* line 270, ../sass/styles.scss */
+  /* line 273, ../sass/styles.scss */
   nav ul {
     background: #d169bd;
     display: block;
@@ -7358,43 +7362,48 @@ form {
     float: right;
     padding-right: 15px; }
 
-  /* line 278, ../sass/styles.scss */
+  /* line 281, ../sass/styles.scss */
   nav ul a {
     font-size: 1.5em; }
 
-  /* line 281, ../sass/styles.scss */
+  /* line 284, ../sass/styles.scss */
   ul li {
     display: inline-block; }
 
-  /* line 284, ../sass/styles.scss */
+  /* line 287, ../sass/styles.scss */
   .bast {
-    width: 50%;
+    width: 47%;
     float: left;
     margin-top: 200px; }
 
-  /* line 289, ../sass/styles.scss */
+  /* line 292, ../sass/styles.scss */
   .samples h3:nth-child(1) {
     margin-top: 0; }
 
-  /* line 292, ../sass/styles.scss */
+  /* line 295, ../sass/styles.scss */
   .samples {
-    width: 50%;
+    width: 47%;
     float: right;
     margin-top: 200px; }
 
-  /* line 297, ../sass/styles.scss */
+  /* line 300, ../sass/styles.scss */
   .sample h3 {
     background: none;
     color: #d169bd;
     font-size: 2em; }
 
-  /* line 302, ../sass/styles.scss */
+  /* line 305, ../sass/styles.scss */
   .sample p {
     display: block;
     color: #989696;
-    padding-left: 15px; } }
+    padding-left: 15px; }
+
+  /* line 310, ../sass/styles.scss */
+  .popular {
+    margin-top: 90px;
+    margin-bottom: 50px; } }
 @media (min-width: 1200px) {
-  /* line 311, ../sass/styles.scss */
+  /* line 318, ../sass/styles.scss */
   .container:nth-child(1),
   .container:nth-child(2),
   .container:nth-child(3),
