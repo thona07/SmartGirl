@@ -7110,19 +7110,6 @@ img {
   height: 46px; }
 
 /* line 64, ../sass/styles.scss */
-.status {
-  background: #ccc;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin: 0; }
-
-/* line 70, ../sass/styles.scss */
-.status h3 {
-  color: black;
-  text-align: center;
-  margin: 0; }
-
-/* line 75, ../sass/styles.scss */
 nav {
   background: #d169bd;
   box-shadow: 1px 2px 4px #ccc;
@@ -7131,18 +7118,18 @@ nav {
   position: fixed;
   z-index: 1; }
 
-/* line 83, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 nav ul {
   background: #b05a91;
   display: none;
-  top: 116px;
+  top: 76px;
   padding: 0;
   margin: 0;
   position: absolute;
   list-style: none;
   width: 100%; }
 
-/* line 93, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 nav ul a {
   color: #fff;
   display: block;
@@ -7150,23 +7137,23 @@ nav ul a {
   text-decoration: none;
   padding: 23px 15px; }
 
-/* line 100, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 nav ul a:hover {
   background: #d169bd;
   color: #fff; }
 
-/* line 104, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 .menu {
   background: #b05a91;
   border-radius: 4px;
   cursor: pointer;
   position: absolute;
-  top: 60px;
+  top: 20px;
   right: 15px;
   width: 40px;
   padding: 10px; }
 
-/* line 114, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 .menu span {
   background: #fff;
   display: block;
@@ -7174,19 +7161,19 @@ nav ul a:hover {
   height: 3px;
   width: 18px; }
 
-/* line 121, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 .bast {
   background: url(../images/bast.jpg) no-repeat;
   background-size: cover;
   padding: 78px 15px;
-  margin-top: 116px;
+  margin-top: 78px;
   text-align: center; }
 
-/* line 128, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 .bast h1 {
   padding-bottom: 20px; }
 
-/* line 131, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 .btn {
   background: red;
   color: #fff;
@@ -7194,7 +7181,7 @@ nav ul a:hover {
   float: right;
   margin-top: 30px; }
 
-/* line 138, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .sample h3 {
   background: red;
   padding-top: 12px;
@@ -7203,57 +7190,66 @@ nav ul a:hover {
   color: #fff;
   padding-left: 15px; }
 
-/* line 146, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 .sample p {
   display: none; }
 
-/* line 149, ../sass/styles.scss */
+/* line 138, ../sass/styles.scss */
 .popular {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
   text-transform: uppercase; }
 
-/* line 155, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
+.gallery ul {
+  padding-left: 0; }
+
+/* line 147, ../sass/styles.scss */
+.gallery li {
+  list-style: none; }
+
+/* line 150, ../sass/styles.scss */
+.gallery p {
+  color: #ca4ab2; }
+
+/* line 153, ../sass/styles.scss */
+.gallery span {
+  color: black; }
+
+/* line 156, ../sass/styles.scss */
 .item h2 {
   color: black; }
 
-/* line 158, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 .item span {
   color: #bab6b9; }
 
-/* line 161, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 .bag img {
   margin-top: 15px; }
 
-/* line 164, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 .bag p {
   color: black;
   padding-top: 30px;
   margin: 0; }
 
-/* line 169, ../sass/styles.scss */
-.img {
-  width: 25%;
-  float: left;
-  clear: both;
-  margin-bottom: 10px; }
-
-/* line 175, ../sass/styles.scss */
+/* line 170, ../sass/styles.scss */
 .float {
   float: right;
   width: 70%; }
 
-/* line 179, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 .float h3 {
   margin: 0;
   font-size: 1.5em; }
 
-/* line 183, ../sass/styles.scss */
+/* line 178, ../sass/styles.scss */
 .float span {
   color: black; }
 
-/* line 186, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 .bag button {
   width: 100%;
   padding-top: 10px;
@@ -7261,59 +7257,59 @@ nav ul a:hover {
   font-size: 1.5em;
   margin-bottom: 30px; }
 
-/* line 193, ../sass/styles.scss */
+/* line 188, ../sass/styles.scss */
 .content {
   display: none; }
 
-/* line 196, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 .subscribe {
   display: none; }
 
-/* line 199, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 form {
   display: none; }
 
-/* line 202, ../sass/styles.scss */
+/* line 197, ../sass/styles.scss */
 .facebook {
   background: #ccc;
   padding-top: 10px;
   padding-bottom: 10px; }
 
-/* line 207, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 .facebook h3 {
   margin: 0;
   text-align: center;
   color: black; }
 
-/* line 212, ../sass/styles.scss */
+/* line 207, ../sass/styles.scss */
 .people img {
   width: 18%; }
 
-/* line 215, ../sass/styles.scss */
+/* line 210, ../sass/styles.scss */
 .fb {
   width: 50%;
   padding-top: 20px; }
 
-/* line 219, ../sass/styles.scss */
+/* line 214, ../sass/styles.scss */
 .container:nth-child(6), .container:nth-child(7) {
   display: none; }
 
-/* line 222, ../sass/styles.scss */
+/* line 217, ../sass/styles.scss */
 .images {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px; }
 
-/* line 227, ../sass/styles.scss */
+/* line 222, ../sass/styles.scss */
 .images img {
   width: 30%; }
 
-/* line 230, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 .footer {
   padding-top: 40px;
   padding-bottom: 10px; }
 
-/* line 234, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 .footer p {
   float: right;
   display: block;
@@ -7322,38 +7318,38 @@ form {
   font-size: 0.7em;
   margin: 0; }
 
-/* line 242, ../sass/styles.scss */
+/* line 237, ../sass/styles.scss */
 .footer img {
   width: 20%;
   float: right;
   padding-top: 20px; }
 
 @media (min-width: 768px) {
-  /* line 250, ../sass/styles.scss */
+  /* line 245, ../sass/styles.scss */
   .bast {
     padding: 215px 15px; }
 
-  /* line 253, ../sass/styles.scss */
+  /* line 248, ../sass/styles.scss */
   .btn {
     margin-top: 150px; }
 
-  /* line 256, ../sass/styles.scss */
+  /* line 251, ../sass/styles.scss */
   .img li img {
     width: 10%; }
 
-  /* line 259, ../sass/styles.scss */
+  /* line 254, ../sass/styles.scss */
   .bag button {
     margin-top: 30px; } }
 @media (min-width: 992px) {
-  /* line 267, ../sass/styles.scss */
+  /* line 262, ../sass/styles.scss */
   .container:nth-child(6), .container:nth-child(7) {
     display: block; }
 
-  /* line 270, ../sass/styles.scss */
+  /* line 265, ../sass/styles.scss */
   .menu {
     display: none; }
 
-  /* line 273, ../sass/styles.scss */
+  /* line 268, ../sass/styles.scss */
   nav ul {
     background: #d169bd;
     display: block;
@@ -7362,46 +7358,52 @@ form {
     float: right;
     padding-right: 15px; }
 
-  /* line 281, ../sass/styles.scss */
+  /* line 276, ../sass/styles.scss */
   nav ul a {
     font-size: 1.5em; }
 
-  /* line 284, ../sass/styles.scss */
+  /* line 279, ../sass/styles.scss */
   ul li {
     display: inline-block; }
 
-  /* line 287, ../sass/styles.scss */
+  /* line 282, ../sass/styles.scss */
   .bast {
     width: 47%;
     float: left;
     margin-top: 200px; }
 
-  /* line 292, ../sass/styles.scss */
+  /* line 287, ../sass/styles.scss */
   .samples h3:nth-child(1) {
     margin-top: 0; }
 
-  /* line 295, ../sass/styles.scss */
+  /* line 290, ../sass/styles.scss */
   .samples {
     width: 47%;
     float: right;
     margin-top: 200px; }
 
-  /* line 300, ../sass/styles.scss */
+  /* line 295, ../sass/styles.scss */
   .sample h3 {
     background: none;
     color: #d169bd;
     font-size: 2em; }
 
-  /* line 305, ../sass/styles.scss */
+  /* line 300, ../sass/styles.scss */
   .sample p {
     display: block;
     color: #989696;
     padding-left: 15px; }
 
-  /* line 310, ../sass/styles.scss */
+  /* line 305, ../sass/styles.scss */
   .popular {
     margin-top: 90px;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+
+  /* line 309, ../sass/styles.scss */
+  .gallery ul {
+    width: 24%;
+    float: left;
+    margin: 5px; } }
 @media (min-width: 1200px) {
   /* line 318, ../sass/styles.scss */
   .container:nth-child(1),
