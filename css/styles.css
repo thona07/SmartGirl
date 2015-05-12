@@ -7349,7 +7349,7 @@ form {
     margin-top: 30px; } }
 @media (min-width: 992px) {
   /* line 268, ../sass/styles.scss */
-  .container:nth-child(6), .container:nth-child(7), .content {
+  .container:nth-child(6), .container:nth-child(7), .content, form {
     display: block; }
 
   /* line 271, ../sass/styles.scss */
