@@ -7413,10 +7413,15 @@ form {
     margin: 5px; }
 
   /* line 320, ../sass/styles.scss */
+  .bag {
+    width: 60%;
+    float: left; }
+
+  /* line 324, ../sass/styles.scss */
   .social-media div {
     display: inline-block; } }
 @media (min-width: 1200px) {
-  /* line 327, ../sass/styles.scss */
+  /* line 331, ../sass/styles.scss */
   .container:nth-child(1),
   .container:nth-child(2),
   .container:nth-child(3),
