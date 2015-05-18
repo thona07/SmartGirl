@@ -7413,15 +7413,40 @@ form {
     margin: 5px; }
 
   /* line 320, ../sass/styles.scss */
-  .bag {
-    width: 60%;
+  .bags {
+    width: 67%;
     float: left; }
 
   /* line 324, ../sass/styles.scss */
   .social-media div {
-    display: inline-block; } }
-@media (min-width: 1200px) {
+    display: inline-block; }
+
+  /* line 327, ../sass/styles.scss */
+  .social {
+    width: 30%;
+    float: right; }
+
   /* line 331, ../sass/styles.scss */
+  .social img {
+    margin-top: 30px; }
+
+  /* line 334, ../sass/styles.scss */
+  .bag-1 {
+    background: url(../images/bag.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    display: block; }
+
+  /* line 340, ../sass/styles.scss */
+  .bag-1 h3 {
+    color: #fff;
+    padding-top: 30px; }
+
+  /* line 344, ../sass/styles.scss */
+  .bag-1 img {
+    width: 10%; } }
+@media (min-width: 1200px) {
+  /* line 352, ../sass/styles.scss */
   .container:nth-child(1),
   .container:nth-child(2),
   .container:nth-child(3),

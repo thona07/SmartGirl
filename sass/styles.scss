@@ -317,12 +317,33 @@ display: inline-block;
 	float: left;
 	margin: 5px;
 }
-.bag {
-	width: 60%;
+.bags {
+	width: 67%;
 	float: left;
 }
 .social-media div {
 	display: inline-block;
+}
+.social {
+	width: 30%;
+	float: right;
+}
+.social img {
+	margin-top: 30px;
+}
+.bag-1 {
+	background: url(../images/bag.jpg) no-repeat;
+	background-size: cover;
+	margin-top: 30px;
+	display: block;
+}
+.bag-1 h3 {
+	color: #fff;
+	padding-top: 30px;
+}
+.bag-1 img {
+	width: 10%;
+	
 }
 }
 
