@@ -7444,9 +7444,17 @@ form {
 
   /* line 344, ../sass/styles.scss */
   .bag-1 img {
-    width: 10%; } }
+    width: 10%;
+    margin-left: 10px; }
+
+  /* line 348, ../sass/styles.scss */
+  .btn {
+    background: red;
+    color: #fff;
+    float: right;
+    margin-top: 30px; } }
 @media (min-width: 1200px) {
-  /* line 352, ../sass/styles.scss */
+  /* line 358, ../sass/styles.scss */
   .container:nth-child(1),
   .container:nth-child(2),
   .container:nth-child(3),
