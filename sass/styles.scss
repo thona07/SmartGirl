@@ -325,6 +325,12 @@ display: inline-block;
 	width: 67%;
 	float: left;
 }
+.find {
+	display: none;
+}
+.social-media, .social {
+	display: block;
+}
 .social-media div {
 	display: inline-block;
 }
@@ -344,6 +350,7 @@ display: inline-block;
 .bag-1 h3 {
 	color: #fff;
 	padding-top: 30px;
+	text-align: center;
 }
 .bag-1 img {
 	width: 10%;

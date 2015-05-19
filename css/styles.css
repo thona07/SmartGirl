@@ -7423,50 +7423,59 @@ form {
     float: left; }
 
   /* line 328, ../sass/styles.scss */
+  .find {
+    display: none; }
+
+  /* line 331, ../sass/styles.scss */
+  .social-media, .social {
+    display: block; }
+
+  /* line 334, ../sass/styles.scss */
   .social-media div {
     display: inline-block; }
 
-  /* line 331, ../sass/styles.scss */
+  /* line 337, ../sass/styles.scss */
   .social {
     width: 30%;
     float: right; }
 
-  /* line 335, ../sass/styles.scss */
+  /* line 341, ../sass/styles.scss */
   .social img {
     margin-top: 30px; }
 
-  /* line 338, ../sass/styles.scss */
+  /* line 344, ../sass/styles.scss */
   .bag-1 {
     background: url(../images/bag.jpg) no-repeat;
     background-size: cover;
     margin-top: 30px;
     display: block; }
 
-  /* line 344, ../sass/styles.scss */
+  /* line 350, ../sass/styles.scss */
   .bag-1 h3 {
     color: #fff;
-    padding-top: 30px; }
+    padding-top: 30px;
+    text-align: center; }
 
-  /* line 348, ../sass/styles.scss */
+  /* line 355, ../sass/styles.scss */
   .bag-1 img {
     width: 10%;
     margin-left: 10px; }
 
-  /* line 352, ../sass/styles.scss */
+  /* line 359, ../sass/styles.scss */
   .btn {
     background: red;
     color: #fff;
     float: right;
     margin-top: 30px; }
 
-  /* line 358, ../sass/styles.scss */
+  /* line 365, ../sass/styles.scss */
   .container:nth-child(5) ul {
     background: #ca4ab2;
     margin-top: 90px;
     padding-top: 20px;
     padding-bottom: 20px; }
 
-  /* line 364, ../sass/styles.scss */
+  /* line 371, ../sass/styles.scss */
   .container:nth-child(5) ul a {
     color: #fff;
     display: block;
@@ -7474,12 +7483,12 @@ form {
     text-decoration: none;
     padding: 23px 15px; }
 
-  /* line 371, ../sass/styles.scss */
+  /* line 378, ../sass/styles.scss */
   .container:nth-child(5) ul a:hover {
     background: #d169bd;
     color: #fff; } }
 @media (min-width: 1200px) {
-  /* line 379, ../sass/styles.scss */
+  /* line 386, ../sass/styles.scss */
   .container:nth-child(1),
   .container:nth-child(2),
   .container:nth-child(3),
