@@ -288,10 +288,12 @@ nav ul {
 	padding-right: 15px;
 }
 nav ul a {
-font-size: 1.5em;
+font-size: 1em;
 }
 ul li {
 display: inline-block;
+font-size: 1.5em;
+padding: 15px;
 }
 .bast {
 	width: 47%;
@@ -321,12 +323,18 @@ display: inline-block;
 	margin-bottom: 50px;
 }
 .gallery {
-	width: 20%;
+	width: 25%;
 	float: left;
+	padding: 1%;
 }
 .gallery p, .gallery span {
 	width: none;
 	float: none;
+	width: 100%;
+	text-align: center;
+}
+.gallery p {
+	font-size: 1.5em;
 }
 .gallery img {
 	width: 100%;
@@ -357,6 +365,9 @@ display: inline-block;
 	background-size: cover;
 	margin-top: 30px;
 	display: block;
+}
+.bag img {
+	padding-right: 40px;
 }
 .bag-1 h3 {
 	color: #fff;
