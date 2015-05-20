@@ -147,17 +147,22 @@ nav ul a:hover {
 .gallery li {
 	list-style: none;
 }
+.gallery img {
+	width: 25%;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
 .gallery p {
 color: #ca4ab2;
+width: 65%;
+float: left;
+font-size: 1em;
 }
 .gallery span {
 	color: black;
-}
-.posts .img-1 img {
-	width: 25%;
+	width: 65%;
 	float: left;
-	clear: both;
-	margin-right: 15px;
 }
 .item h2 {
 	color: black;
@@ -259,7 +264,6 @@ form {
 }
 .bag button {
 	margin-top: 30px;
-	
 }
 }
 
@@ -316,10 +320,17 @@ display: inline-block;
 	margin-top: 90px;
 	margin-bottom: 50px;
 }
-.gallery ul {
-	width: 24%;
+.gallery {
+	width: 20%;
 	float: left;
-	margin: 5px;
+}
+.gallery p, .gallery span {
+	width: none;
+	float: none;
+}
+.gallery img {
+	width: 100%;
+	float: none;
 }
 .bags {
 	width: 67%;
@@ -378,6 +389,9 @@ display: inline-block;
 .container:nth-child( 5 ) ul a:hover {
 	background: #d169bd;
 	color: #fff;
+}
+.footer p {
+	padding-top: 75px;
 }
 }
 
