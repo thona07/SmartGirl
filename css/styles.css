@@ -7234,34 +7234,63 @@ nav ul a:hover {
   color: black; }
 
 /* line 170, ../sass/styles.scss */
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 3px; }
+
+/* line 179, ../sass/styles.scss */
+.float-left {
+  width: 30px;
+  float: left; }
+
+/* line 183, ../sass/styles.scss */
+.float-right {
+  width: 30px;
+  float: right; }
+
+/* line 187, ../sass/styles.scss */
 .item span {
   color: #bab6b9; }
 
-/* line 173, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
+.item hr {
+  width: 50%;
+  border-color: #ca4ab2;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 35px;
+  margin-bottom: 15px; }
+
+/* line 198, ../sass/styles.scss */
 .bag img {
   margin-top: 15px; }
 
-/* line 176, ../sass/styles.scss */
+/* line 201, ../sass/styles.scss */
 .bag p {
   color: black;
   padding-top: 30px;
   margin: 0; }
 
-/* line 181, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 .float {
   float: right;
   width: 70%; }
 
-/* line 185, ../sass/styles.scss */
+/* line 210, ../sass/styles.scss */
 .float h3 {
   margin: 0;
   font-size: 1.5em; }
 
-/* line 189, ../sass/styles.scss */
+/* line 214, ../sass/styles.scss */
 .float span {
   color: black; }
 
-/* line 192, ../sass/styles.scss */
+/* line 217, ../sass/styles.scss */
 .bag button {
   width: 100%;
   padding-top: 10px;
@@ -7269,59 +7298,59 @@ nav ul a:hover {
   font-size: 1.5em;
   margin-bottom: 30px; }
 
-/* line 199, ../sass/styles.scss */
+/* line 224, ../sass/styles.scss */
 .subscribe {
   display: none; }
 
-/* line 202, ../sass/styles.scss */
+/* line 227, ../sass/styles.scss */
 .social-media, .social {
   display: none; }
 
-/* line 205, ../sass/styles.scss */
+/* line 230, ../sass/styles.scss */
 form {
   display: none; }
 
-/* line 208, ../sass/styles.scss */
+/* line 233, ../sass/styles.scss */
 .facebook {
   background: #ccc;
   padding-top: 10px;
   padding-bottom: 10px; }
 
-/* line 213, ../sass/styles.scss */
+/* line 238, ../sass/styles.scss */
 .facebook h3 {
   margin: 0;
   text-align: center;
   color: black; }
 
-/* line 218, ../sass/styles.scss */
+/* line 243, ../sass/styles.scss */
 .people img {
   width: 18%; }
 
-/* line 221, ../sass/styles.scss */
+/* line 246, ../sass/styles.scss */
 .fb {
   width: 50%;
   padding-top: 20px; }
 
-/* line 225, ../sass/styles.scss */
+/* line 250, ../sass/styles.scss */
 .container:nth-child(5) {
   display: none; }
 
-/* line 228, ../sass/styles.scss */
+/* line 253, ../sass/styles.scss */
 .images {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px; }
 
-/* line 233, ../sass/styles.scss */
+/* line 258, ../sass/styles.scss */
 .images img {
   width: 30%; }
 
-/* line 236, ../sass/styles.scss */
+/* line 261, ../sass/styles.scss */
 .footer {
   padding-top: 40px;
   padding-bottom: 10px; }
 
-/* line 240, ../sass/styles.scss */
+/* line 265, ../sass/styles.scss */
 .footer p {
   float: right;
   display: block;
@@ -7330,43 +7359,43 @@ form {
   font-size: 0.7em;
   margin: 0; }
 
-/* line 248, ../sass/styles.scss */
+/* line 273, ../sass/styles.scss */
 .footer img {
   width: 20%;
   float: right;
   padding-top: 20px; }
 
 @media (min-width: 768px) {
-  /* line 256, ../sass/styles.scss */
+  /* line 281, ../sass/styles.scss */
   .bast {
     padding: 215px 15px; }
 
-  /* line 259, ../sass/styles.scss */
+  /* line 284, ../sass/styles.scss */
   .btn {
     margin-top: 150px; }
 
-  /* line 262, ../sass/styles.scss */
+  /* line 287, ../sass/styles.scss */
   .img li img {
     width: 10%; }
 
-  /* line 265, ../sass/styles.scss */
+  /* line 290, ../sass/styles.scss */
   .bag button {
     margin-top: 30px; } }
 @media (min-width: 992px) {
-  /* line 272, ../sass/styles.scss */
+  /* line 297, ../sass/styles.scss */
   .container:nth-child(6), .container:nth-child(5), form {
     display: block; }
 
-  /* line 275, ../sass/styles.scss */
+  /* line 300, ../sass/styles.scss */
   .container:nth-child(5) {
     width: 100%;
     padding: 0; }
 
-  /* line 279, ../sass/styles.scss */
+  /* line 304, ../sass/styles.scss */
   .menu {
     display: none; }
 
-  /* line 282, ../sass/styles.scss */
+  /* line 307, ../sass/styles.scss */
   nav ul {
     background: #d169bd;
     display: block;
@@ -7375,134 +7404,134 @@ form {
     float: right;
     padding-right: 15px; }
 
-  /* line 290, ../sass/styles.scss */
+  /* line 315, ../sass/styles.scss */
   nav ul a {
     font-size: 1em; }
 
-  /* line 293, ../sass/styles.scss */
+  /* line 318, ../sass/styles.scss */
   ul li {
     display: inline-block;
     font-size: 1.5em;
     padding: 15px; }
 
-  /* line 298, ../sass/styles.scss */
+  /* line 323, ../sass/styles.scss */
   .bast {
     width: 47%;
     float: left;
     margin-top: 200px; }
 
-  /* line 303, ../sass/styles.scss */
+  /* line 328, ../sass/styles.scss */
   .samples h3:nth-child(1) {
     margin-top: 0; }
 
-  /* line 306, ../sass/styles.scss */
+  /* line 331, ../sass/styles.scss */
   .samples {
     width: 47%;
     float: right;
     margin-top: 200px; }
 
-  /* line 311, ../sass/styles.scss */
+  /* line 336, ../sass/styles.scss */
   .sample h3 {
     background: none;
     color: #d169bd;
     font-size: 2em; }
 
-  /* line 316, ../sass/styles.scss */
+  /* line 341, ../sass/styles.scss */
   .sample p {
     display: block;
     color: #989696;
     padding-left: 15px; }
 
-  /* line 321, ../sass/styles.scss */
+  /* line 346, ../sass/styles.scss */
   .popular {
     margin-top: 90px;
     margin-bottom: 50px; }
 
-  /* line 325, ../sass/styles.scss */
+  /* line 350, ../sass/styles.scss */
   .gallery {
     width: 25%;
     float: left;
     padding: 1%; }
 
-  /* line 330, ../sass/styles.scss */
+  /* line 355, ../sass/styles.scss */
   .gallery p, .gallery span {
     width: none;
     float: none;
     width: 100%;
     text-align: center; }
 
-  /* line 336, ../sass/styles.scss */
+  /* line 361, ../sass/styles.scss */
   .gallery p {
     font-size: 1.5em; }
 
-  /* line 339, ../sass/styles.scss */
+  /* line 364, ../sass/styles.scss */
   .gallery img {
     width: 100%;
     float: none; }
 
-  /* line 343, ../sass/styles.scss */
+  /* line 368, ../sass/styles.scss */
   .bags {
     width: 67%;
     float: left; }
 
-  /* line 347, ../sass/styles.scss */
+  /* line 372, ../sass/styles.scss */
   .find {
     display: none; }
 
-  /* line 350, ../sass/styles.scss */
+  /* line 375, ../sass/styles.scss */
   .social-media, .social {
     display: block; }
 
-  /* line 353, ../sass/styles.scss */
+  /* line 378, ../sass/styles.scss */
   .social-media div {
     display: inline-block; }
 
-  /* line 356, ../sass/styles.scss */
+  /* line 381, ../sass/styles.scss */
   .social {
     width: 30%;
     float: right; }
 
-  /* line 360, ../sass/styles.scss */
+  /* line 385, ../sass/styles.scss */
   .social img {
     margin-top: 30px; }
 
-  /* line 363, ../sass/styles.scss */
+  /* line 388, ../sass/styles.scss */
   .bag-1 {
     background: url(../images/bag.jpg) no-repeat;
     background-size: cover;
     margin-top: 30px;
     display: block; }
 
-  /* line 369, ../sass/styles.scss */
+  /* line 394, ../sass/styles.scss */
   .bag img {
     padding-right: 40px; }
 
-  /* line 372, ../sass/styles.scss */
+  /* line 397, ../sass/styles.scss */
   .bag-1 h3 {
     color: #fff;
     padding-top: 30px;
     text-align: center; }
 
-  /* line 377, ../sass/styles.scss */
+  /* line 402, ../sass/styles.scss */
   .bag-1 img {
     width: 10%;
     margin-left: 10px; }
 
-  /* line 381, ../sass/styles.scss */
+  /* line 406, ../sass/styles.scss */
   .btn {
     background: red;
     color: #fff;
     float: right;
     margin-top: 30px; }
 
-  /* line 387, ../sass/styles.scss */
+  /* line 412, ../sass/styles.scss */
   .container:nth-child(5) ul {
     background: #ca4ab2;
     margin-top: 90px;
     padding-top: 20px;
     padding-bottom: 20px; }
 
-  /* line 393, ../sass/styles.scss */
+  /* line 418, ../sass/styles.scss */
   .container:nth-child(5) ul a {
     color: #fff;
     display: block;
@@ -7510,16 +7539,16 @@ form {
     text-decoration: none;
     padding: 23px 15px; }
 
-  /* line 400, ../sass/styles.scss */
+  /* line 425, ../sass/styles.scss */
   .container:nth-child(5) ul a:hover {
     background: #d169bd;
     color: #fff; }
 
-  /* line 404, ../sass/styles.scss */
+  /* line 429, ../sass/styles.scss */
   .footer p {
     padding-top: 75px; } }
 @media (min-width: 1200px) {
-  /* line 411, ../sass/styles.scss */
+  /* line 436, ../sass/styles.scss */
   .container:nth-child(1),
   .container:nth-child(2),
   .container:nth-child(3),
