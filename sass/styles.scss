@@ -118,7 +118,7 @@ nav ul a:hover {
 	padding-bottom: 20px;
 }
 .btn {
-	background: red;
+	background: #ca4ab2;
 	color: #fff;
 	display: block;
 	float: right;
@@ -140,6 +140,7 @@ nav ul a:hover {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	text-transform: uppercase;
+	font-size: 1.5em;
 }
 .gallery ul {
 	padding-left: 0;
@@ -177,11 +178,11 @@ hr {
     border-width: 3px;
 } 
 .float-left {
-	width: 30px;
+	width: 15%;
 	float: left;
 }
 .float-right {
-	width: 30px;
+	width: 15%;
 	float: right;
 }
 .item span {
