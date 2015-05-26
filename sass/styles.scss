@@ -331,7 +331,14 @@ form {
 	padding-left: 15px;
 	padding-right: 15px;
 	background: red;
-	
+}
+form img {
+	width: 2%;
+	float: right;
+}
+.form-control {
+	width: 30%;
+	float: right;
 }
 .bast {
 	width: 47%;
@@ -344,7 +351,7 @@ form {
 .samples {
 	width: 47%;
 	float: right;
-	margin-top: 100px;
+	margin-top: 60px;
 }
 .sample h3 {
 	background: none;
