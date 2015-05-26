@@ -95,6 +95,9 @@ nav ul form {
 	  padding-left: 15px;
 	  padding-right: 15px;
 }
+form, .nav-2 {
+	display: none;
+}
 .menu {
 	background: #b05a91;
 	border-radius: 4px;
@@ -116,7 +119,7 @@ nav ul form {
 	background: url(../images/bast.jpg) no-repeat;
 	background-size: cover;
 	padding: 78px 15px;
-	margin-top: 78px;
+	margin-top: 55px;
 	text-align: center;
 }
 .bast h1 {
@@ -301,7 +304,6 @@ hr {
 	display: block;
 }
 .container:nth-child( 5 ) {
-	width: 100%;
 	padding: 0;
 }
 nav ul form { 
@@ -456,7 +458,7 @@ form img {
 	.container:nth-child( 1 ), 
 	.container:nth-child( 2 ),
 	.container:nth-child( 3 ), 
-	.container:nth-child( 4 ),
+	.container:nth-child( 5 ),
 	nav .container {
 		margin: auto;
 		width: 1170px;
