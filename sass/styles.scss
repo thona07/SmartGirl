@@ -61,6 +61,9 @@ img {
 	width: 46px;
 	height: 46px;
 }
+.homepage {
+	display: none;
+}
 nav {
 	background: #d169bd;
 	box-shadow: 1px 2px 4px #ccc;
@@ -306,6 +309,21 @@ hr {
 .container:nth-child( 5 ) {
 	padding: 0;
 }
+.homepage {
+	background: url(../images/homepage.png) no-repeat;
+	background-size: 46px 46px;
+	display: block;
+	text-decoration: none;
+	float: left;
+	text-indent: -9999px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	width: 46px;
+}
+.logo {
+	display: none;
+}
 nav ul form { 
 	display: none;
 }
@@ -399,6 +417,7 @@ form img {
 }
 .social-media div {
 	display: inline-block;
+	margin-bottom: 10px;
 }
 .social {
 	width: 30%;
