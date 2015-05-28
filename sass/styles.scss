@@ -345,11 +345,35 @@ display: inline-block;
 font-size: 1.5em;
 padding: 15px;
 }
-
+.search {
+	margin-top: 130px;
+}
+form {
+	width: 270px;
+	position: relative;
+	float: right;
+	right: 40px;
+}
+form button {
+	background: url(../images/search.png) no-repeat 0 0;
+	text-indent: -9999px;
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	border: 0;
+	right: -30px;
+	top: 7px;
+}
+.form-group input {
+	border: 1px solid #b05a91;
+	color: #b05a91;
+	padding: 5px 10px;
+	position: absolute;
+}
 .bast {
 	width: 47%;
 	float: left;
-	margin-top: 100px;
+	margin-top: 230px;
 }
 .samples h3:nth-child( 1 ) {
 	margin-top: 0;
