@@ -146,15 +146,21 @@ form, .nav-2 {
 .sample p {
 	display: none;
 }
-.popular {
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	text-transform: uppercase;
-	font-size: 1.5em;
-}
 .gallery ul {
 	padding-left: 0;
+}
+h2 {
+	text-align: center;
+}
+h2 span {
+  display: inline-block;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ca4ab2;
+  padding: 0 13px;
+  position: relative;
+  z-index: 2;
 }
 .gallery li {
 	list-style: none;
@@ -179,15 +185,6 @@ font-size: 1em;
 .item h2 {
 	color: black;
 }
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 3px;
-} 
 .float-left {
 	width: 15%;
 	float: left;
