@@ -68,7 +68,7 @@ img {
 	display: none;
 }
 nav {
-	background: #d169bd;
+	background: #ca4ab2;
 	box-shadow: 1px 2px 4px #ccc;
 	top: 0;
 	width: 100%;
@@ -76,7 +76,7 @@ nav {
 	z-index: 1;
 } 
 nav ul {
-	background: #b05a91;
+	background: #ca4ab2;
 	display: none;
 	top: 76px;
 	padding: 0;
@@ -290,12 +290,10 @@ font-size: 1em;
 	height: 52px;
 	margin-right: 20px;
 }
-.flagship {
-	display: inline-block;
-}
 .flagship  {
 	background: url(../images/flag.jpg) no-repeat;
 	background-size: 58px 25px;
+	display: inline-block;
 	width: 52px;
 	height: 52px;
 }
@@ -362,7 +360,7 @@ nav ul form {
 	display: none;
 }
 nav ul {
-	background: #d169bd;
+	background: #ca4ab2;
 	display: block;
 	position: static;
 	width: auto;
