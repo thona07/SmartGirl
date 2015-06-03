@@ -262,13 +262,42 @@ font-size: 1em;
 	width: 50%;
 	padding-top: 20px;
 }
-.images {
+.sponsors {
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 30px;
+	padding: 33px 0 31px 0;
 }
-.images img {
-	width: 30%;
+.sponsors li a{
+	text-indent: -9999px;
+	display: block;
+}
+.pepfar {
+	display: inline-block;
+}
+.pepfar a {
+	background: url(../images/pep.jpg) no-repeat;
+	background-size: 52px 52px;
+	width: 52px;
+	height: 52px;
+	margin-right: 20px
+}
+.usaid {
+	display: inline-block;
+}
+.usaid a {
+	background: url(../images/usa.jpg) no-repeat;
+	background-size: 58px 52px;
+	width: 52px;
+	height: 52px;
+	margin-right: 20px;
+}
+.flagship {
+	display: inline-block;
+}
+.flagship  {
+	background: url(../images/flag.jpg) no-repeat;
+	background-size: 58px 25px;
+	width: 52px;
+	height: 52px;
 }
 .footer {
 	padding-top: 40px;
@@ -475,9 +504,11 @@ form button {
 .container:nth-child( 6 ) {
 	background: #ca4ab2;
 	width: 100%;
+	margin-top: 150px;
 }
 .nav-2 {
 	color: #fff;
+	padding-left: 200px;
 }
 .footer p {
 	padding-top: 75px;
