@@ -37,6 +37,9 @@ img {
 	padding: 0;
 	width: 100%;
 }
+.container:nth-child( 6 ) {
+	display: none;
+}
 .row {
 	padding: 0;
 	margin: 0;
@@ -98,9 +101,6 @@ nav ul form {
 	  padding-left: 15px;
 	  padding-right: 15px;
 }
-form, .nav-2 {
-	display: none;
-}
 .menu {
 	background: #b05a91;
 	border-radius: 4px;
@@ -118,11 +118,14 @@ form, .nav-2 {
 	height: 3px;
 	width: 18px;
 }
+form {
+	margin-bottom: 0;
+}
 .bast {
 	background: url(../images/bast.jpg) no-repeat;
 	background-size: cover;
 	padding: 78px 15px;
-	margin-top: 55px;
+	margin-top: -15px;
 	text-align: center;
 }
 .bast h1 {
@@ -135,6 +138,9 @@ form, .nav-2 {
 	float: right;
 	margin-top: 30px;
 }
+.samples {
+	padding-bottom: 30px;
+}
 .sample h3 {
 	background: red;
 	padding-top: 12px;
@@ -146,11 +152,12 @@ form, .nav-2 {
 .sample p {
 	display: none;
 }
-.gallery ul {
-	padding-left: 0;
-}
-h2 {
+.popular {
+	margin-top: -35px;
 	text-align: center;
+}
+hr {
+	border-top: 3px solid #dadada;
 }
 h2 span {
   display: inline-block;
@@ -160,7 +167,9 @@ h2 span {
   color: #ca4ab2;
   padding: 0 13px;
   position: relative;
-  z-index: 2;
+}
+.gallery ul {
+	padding-left: 0;
 }
 .gallery li {
 	list-style: none;
@@ -252,9 +261,6 @@ font-size: 1em;
 .fb {
 	width: 50%;
 	padding-top: 20px;
-}
-.container:nth-child( 5 ) {
-	display: none;
 }
 .images {
 	text-align: center;
@@ -390,10 +396,6 @@ form button {
 	color: #989696;
 	padding-left: 15px;
 }
-.popular {
-	margin-top: 90px;
-	margin-bottom: 50px;
-}
 .gallery {
 	width: 25%;
 	float: left;
@@ -470,8 +472,11 @@ form button {
 	text-decoration: none;
 	padding: 23px 15px;
 }
-.container:nth-child( 5 ) ul a:hover {
-	background: #d169bd;
+.container:nth-child( 6 ) {
+	background: #ca4ab2;
+	width: 100%;
+}
+.nav-2 {
 	color: #fff;
 }
 .footer p {
