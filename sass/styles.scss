@@ -177,10 +177,10 @@ h2 span {
 	margin-right: 10px;
 }
 .gallery p {
-color: #ca4ab2;
-width: 65%;
-float: left;
-font-size: 1em;
+	color: #ca4ab2;
+	width: 65%;
+	float: left;
+	font-size: 1em;
 }
 .gallery span {
 	color: black;
@@ -266,7 +266,7 @@ font-size: 1em;
 	text-indent: -9999px;
 	display: block;
 }
-.pepfar {
+.pepfar, .usaid, .flagship {
 	display: inline-block;
 }
 .pepfar a {
@@ -275,9 +275,6 @@ font-size: 1em;
 	width: 52px;
 	height: 52px;
 	margin-right: 20px
-}
-.usaid {
-	display: inline-block;
 }
 .usaid a {
 	background: url(../images/usa.jpg) no-repeat;
@@ -296,7 +293,7 @@ font-size: 1em;
 .footer {
 	background: #ca4ab2;
 	padding-top: 40px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 .footer p {
 	float: right;
@@ -309,7 +306,8 @@ font-size: 1em;
 .footer img {
 	width: 10%;
 	float: right;
-	padding-top: 20px;
+	padding-top: 23px;
+	margin-right: 60px;
 }
 
 @media ( min-width: 768px ) {
@@ -505,11 +503,11 @@ form button {
 	color: #fff;
 	padding-left: 200px;
 }
+.footer p {
+	margin-top: 25px;
+}
 .footer img {
 	margin-right: 250px;
-}
-.footer p {
-	padding-top: 50px;
 }
 }
 
