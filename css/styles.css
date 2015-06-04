@@ -7381,7 +7381,7 @@ h2 span {
   margin-right: 20px; }
 
 /* line 289, ../sass/styles.scss */
-.flagship {
+.flagship a {
   background: url(../images/flag.jpg) no-repeat;
   background-size: 58px 25px;
   display: inline-block;
